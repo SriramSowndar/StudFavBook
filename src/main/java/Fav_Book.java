@@ -17,7 +17,7 @@ public class Fav_Book {
         System.out.println("Enter the Number of Books");
         int numberOfBookss = Integer.parseInt(scanner.nextLine());
         for (int i = 0 ; i< numberOfBookss; i++) {
-            System.out.println("Enter Name ");
+            System.out.println("Enter Book Name ");
             String name=scanner.nextLine();
             bookNames.add(name);
         }
