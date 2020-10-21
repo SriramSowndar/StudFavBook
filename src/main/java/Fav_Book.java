@@ -9,7 +9,7 @@ public class Fav_Book {
         Scanner scanner = new Scanner(System.in);
         int numberOfStuds = Integer.parseInt(scanner.nextLine());
         for (int i = 0 ; i< numberOfStuds; i++) {
-            System.out.println("Enter Name ");
+            System.out.println("Enter Student Name ");
             String name=scanner.nextLine();
             studentNames.add(name);
         }
